@@ -5,7 +5,7 @@ LABEL maintainer="Bahram Maravandi"
 ENV TERM=xterm-256color
 
 # Set mirrors to DE
-RUN sed -i "s/http:\/\/archive./http:\/\/de.archive./g" /etc/apt/sources.list 
+# RUN sed -i "s/http:\/\/archive./http:\/\/de.archive./g" /etc/apt/sources.list 
 
 # Install node.js
 RUN apt-get update && \
